@@ -1,6 +1,20 @@
-Karya ini telah terdaftar pada Direktorat Jenderal Kekayaan Intelektual Republik Indonesia.
-Nomor pencatatan: [000773601].
-Lisensi: MIT License (lihat file LICENSE)
+<h2 align="center">🏛️ Hak Cipta & Lisensi</h2>
+
+<p align="center">
+  Karya ini telah terdaftar pada<br>
+  <strong>Direktorat Jenderal Kekayaan Intelektual Republik Indonesia</strong>.<br>
+  <b>Nomor pencatatan:</b> <code>000773601</code>
+</p>
+
+<p align="center">
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+  </a>
+</p>
+
+<p align="center">
+  <em>© 2025 Adanix, dkk. Semua hak cipta dilindungi undang-undang.</em>
+</p>
 
 
 
