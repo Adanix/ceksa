@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Catatan
 js, css, gambar, dll -> ono tak tambahi ? nk penting ?
 
@@ -78,3 +79,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# ceksa
+Sistem pakar deteksi dini gizi balita terutama pada stunting
+>>>>>>> 5220418d247233d7fa78d537978691c83f8c98d8
