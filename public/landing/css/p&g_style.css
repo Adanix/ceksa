@@ -1,0 +1,89 @@
+/*** Gejala & Pencegahan Start ***/
+
+.nav-link-custom1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Warna default untuk nav-link-custom1 */
+.nav-link-custom1 {
+    color: #32ceff; /* Warna teks hitam */
+    background: #f2f8fe !important; /* Warna latar belakang putih */
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/* Warna nav-link-custom1 saat hover */
+.nav-link-custom1:hover {
+    color: #ffffff; /* Warna teks putih */
+    background: #3cd8d8 !important; /* Warna biru saat hover */
+}
+
+/* Warna nav-link-custom1 saat aktif */
+.nav-link-custom1.active,
+.nav-link-custom1:focus,
+.nav-link-custom1:active {
+    color: #ffffff !important; /* Warna teks putih */
+    background: #32ceff !important; /* Warna biru saat aktif */
+}
+
+/* Navigasi ke tengah */
+.nav-tabs-custom {
+    justify-content: center;
+}
+
+/*** Gejala & Pencegahan End ***/
+
+/*** Isi Nav Penyakit Start ***/
+.text-judul1 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #ffffff;
+    background: #32ceff;
+    border-radius: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 1px 10px;
+}
+.text-judul2 {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bg-text {
+    background: #f2f8fe;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.bg-text p {
+    color: #9fa7af;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 178.571% */
+}
+
+.isi-text {
+    color: #9fa7af;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 178.571% */
+}
+
+.gambar-penyakit {
+    align-items: center;
+}
+
+/*** Isi Nav Penyakit End ***/

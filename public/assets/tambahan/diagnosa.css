@@ -1,0 +1,67 @@
+/**
+*  @project  Pure CSS Radio Button Tiles
+*  @author   Jamshid Elmi
+*  @created  2022-09-18 13:20:06
+*  @modified 2022-09-18 13:20:06
+*  @tutorial https://youtu.be/UShd9wHTR-o
+*/
+:root {
+  --primary-colortt: #07afd9;
+}
+
+.radio-tile-group-diagnosa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.input-container-f {
+  position: relative;
+  height: 3rem;
+  width: 8rem;
+  margin: 0.5rem;
+}
+
+.input-container-f input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+  z-index: 2;
+  opacity: 0;
+}
+
+.input-container-f .radio-tile-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 2px solid var(--primary-colortt);
+  border-radius: 8px;
+  transition: all 300ms ease;
+}
+
+
+.input-container-f label {
+  color: var(--primary-colortt);
+  font-size: 0.80rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+input:checked+.radio-tile-p {
+  background-color: var(--primary-colortt);
+  box-shadow: 0 0 12px var(--primary-colortt);
+  transform: scale(1.1);
+}
+
+input:hover+.radio-tile-p {
+  box-shadow: 0 0 12px var(--primary-colortt);
+}
+
+input:checked+.radio-tile-p label {
+  color: white;
+}

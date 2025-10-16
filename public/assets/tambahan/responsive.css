@@ -1,0 +1,12 @@
+/*** Admin Resposive ***/
+@media (max-width: 1200px) and (min-width: 758px) {
+    .gambar-logo {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 758px) and (min-width: 250px) {
+    .gambar-logo {
+        display: none;
+    }
+}

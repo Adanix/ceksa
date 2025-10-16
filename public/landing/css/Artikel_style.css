@@ -1,0 +1,293 @@
+.content {
+    scroll-behavior: smooth;
+}
+
+/* Style untuk elemen yang di-scroll */
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    list-style: none;
+}
+hr {
+    border-bottom: 1px solid #eceff8;
+    border-top: 0 none;
+    margin: 30px 0;
+    padding: 0;
+}
+@-webkit-keyframes zoom {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+    }
+}
+@keyframes zoom {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+    }
+}
+
+.trending-area .trending-main {
+    border-bottom: 1px solid #eeeeee;
+}
+.trending-area .trending-main .trending-top .trend-top-img {
+    overflow: hidden;
+    position: relative;
+}
+.trending-area .trending-main .trending-top .trend-top-img::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    content: "";
+}
+.trending-area .trending-main .trending-top .trend-top-img img {
+    width: 100%;
+    border-radius: 7px;
+}
+.trending-area .trending-main .trending-top .trend-top-img .trend-top-cap {
+    position: absolute;
+    bottom: 25px;
+    left: 31px;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.6)
+    );
+    padding: 20px;
+    box-sizing: border-box;
+    width: calc(100% - 62px); /* Menyesuaikan lebar sesuai padding dan left */
+}
+@media (max-width: 767px) {
+    .trending-area .trending-main .trending-top .trend-top-img .trend-top-cap {
+        bottom: -2px;
+        left: 5px;
+    }
+}
+.trending-area .trending-main .trending-top .trend-top-img .trend-top-cap span {
+    background: #fff9c6;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 19px;
+    display: inline-block;
+}
+.trending-area .trending-main .trending-top .trend-top-img .trend-top-cap h2 {
+    font-size: 30px;
+}
+
+.trending-area
+    .trending-main
+    .trending-top
+    .trend-top-img
+    .trend-top-cap
+    h2
+    :hover {
+    color: #d8ecff;
+}
+
+@media (max-width: 767px) {
+    .trending-area
+        .trending-main
+        .trending-top
+        .trend-top-img
+        .trend-top-cap
+        h2 {
+        font-size: 15px;
+    }
+}
+.trending-area .trending-main .trending-top .trend-top-img .trend-top-cap h2 a {
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.trending-area
+    .trending-main
+    .trending-bottom
+    .single-bottom
+    .trend-bottom-img {
+    overflow: hidden;
+}
+.trending-area
+    .trending-main
+    .trending-bottom
+    .single-bottom
+    .trend-bottom-img
+    img {
+    width: 100%;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: all 0.5s ease-out 0s;
+}
+.trending-area
+    .trending-main
+    .trending-bottom
+    .single-bottom
+    .trend-bottom-cap
+    span {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 15px;
+    line-height: 1;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.trending-area .trending-main .trending-bottom .card-artikel h3 {
+    font-size: 16px;
+}
+.trending-area .trending-main .trending-bottom .card-artikel h3:hover {
+    color: #32ceff;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .trending-area
+        .trending-main
+        .trending-bottom
+        .single-bottom
+        .trend-bottom-cap
+        h3 {
+        font-size: 16px;
+    }
+}
+.trending-area
+    .trending-main
+    .trending-bottom
+    .single-bottom
+    .trend-bottom-cap
+    h4
+    a {
+    font-weight: 500;
+    line-height: 1.4;
+}
+.trending-area
+    .trending-main
+    .trending-bottom
+    .single-bottom
+    .trend-bottom-cap
+    h4
+    a:hover {
+    color: #32ceff;
+}
+.trending-area .trending-main .trand-right-single {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.trending-area .trending-main .trand-right-single:last-child {
+    border-bottom: 0;
+}
+.trending-area .trending-main .trand-right-single .trand-right-img img {
+    border-radius: 6px;
+}
+.trending-area .trending-main .trand-right-single .trand-right-cap {
+    padding-left: 18px;
+}
+.trending-area .trending-main .trand-right-single .trand-right-cap span {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 15px;
+    line-height: 1;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.trending-area .trending-main .trand-right-single .trand-right-cap h4 {
+    font-size: 18px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .trending-area .trending-main .trand-right-single .trand-right-cap h4 {
+        font-size: 15px;
+    }
+}
+.trending-area .trending-main .trand-right-single .trand-right-cap h4 a {
+    font-weight: 500;
+    line-height: 1.4;
+}
+.trand-right-cap h4 a:hover {
+    color: #32ceff;
+}
+.single-bottom:hover .trend-bottom-img img {
+    transform: scale(1.1);
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .trending-tittle {
+        padding-top: 25px;
+        padding-bottom: 1px;
+        display: block;
+    }
+}
+@media (max-width: 767px) {
+    .trending-tittle {
+        padding-top: 25px;
+        padding-bottom: 1px;
+        display: block;
+    }
+}
+.trending-tittle .trending-animated {
+    padding-top: 4px;
+}
+.trending-tittle strong {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    background: #ff0b0b;
+    padding: 11px 0px;
+    line-height: 1;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    min-width: 146px;
+    text-align: center;
+}
+.trending-tittle p {
+    margin: 0;
+    display: inline-block;
+}
+@media (max-width: 767px) {
+    .trending-tittle p {
+        display: none;
+        left: 0 !important;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .trending-tittle p {
+        left: 0 !important;
+    }
+}
