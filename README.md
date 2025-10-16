@@ -1,15 +1,6 @@
-<<<<<<< HEAD
-## Catatan
-js, css, gambar, dll -> ono tak tambahi ? nk penting ?
-
-Assets sek ra penting hapus
-
-tgl 21 Oktober 2023 -> Form validation belum oke
-tgl 24 Oktober 2023 -> Form Ganti Password belum
-
-
-
-
+Karya ini telah terdaftar pada Direktorat Jenderal Kekayaan Intelektual Republik Indonesia.
+Nomor pencatatan: [000773601].
+Lisensi: MIT License (lihat file LICENSE)
 
 
 
